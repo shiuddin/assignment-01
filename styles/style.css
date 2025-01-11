@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family:"fira sans" */
+
+*{
+    font-family: "Work Sans", serif;
+}
+section{
+    margin-bottom: 60px;
+}
+
+.header {
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 24px 160px 24px 160px;
+    
+
+}
+  
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.header-text {
+    font-size: 32px;
+    color: #0E0E0E;
+    font-weight: 700;
+}
+  
+.header-button {
+    padding: 15px 30px 15px 30px;
+    border: solid 1px;
+    background-color: #006a5000;
+    border-radius: 8px;
+    color: #006A50;
+    border-color: #006A50;
+    cursor: pointer;
+    font-size: 18px;
+}
+.hero {
+    padding: 80px 100px 80px 100px;
+    width: 100%;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#hero-title{
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#hero-description{
+    color: #3C916A;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.btn-primary{
+    background-color: #3C916A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+}
+.hero-text-box{
+    width: 622px;
+}
+.hero-img-box{
+    width: 622px;
+}
+.hero-parent{
+    height: 560px;
+    padding: 0 160px 0 160px;
+    display: flex;
+    justify-content: center;
+    
+}
+.pillar-section{
+    padding: 0 160px 0 160px;
+}
+.pillar-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.section-title{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.pillar-card{
+    height: 200px;
+    width: 302px;
+    padding: 24px;
+    border: 1px solid rgba(179, 177, 177, 0.226);
+    border-radius: 8px;
+}
+.pillar-card-icon{
+    width: 62px;
+}
+.pillar-card-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.pillar-card-description{
+    font-size: 16px;
+    line-height: 24px;
+}
